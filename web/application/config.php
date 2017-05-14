@@ -41,11 +41,11 @@ return [
     // 默认时区
     'default_timezone'       => 'PRC',
     // 是否开启多语言
-    'lang_switch_on'         => false,
+    'lang_switch_on'         => true,
     // 默认全局过滤方法 用逗号分隔多个
     'default_filter'         => '',
     // 默认语言
-    'default_lang'           => 'zh-cn',
+    'default_lang'           => ['zh-cn','en-us',],
     // 应用类库后缀
     'class_suffix'           => false,
     // 控制器类后缀
@@ -139,15 +139,7 @@ return [
     ],
 
     // 视图输出字符串内容替换
-    'view_replace_str'       => ['_PUBLIC_'      => '/iot/public/static',
-                                 '_MOD_INDEX'    => '主页',
-                                 '_MOD_GIS'      => '地理位置',
-                                 '_MOD_NODE'     => '节点管理',
-                                 '_MOD_ALARM'    => '告警管理',
-                                 '_MOD_STATIS'   => '数据统计',
-                                 '_MOD_ACCOUNT'  => '用户管理',
-                                 '_MOD_SYSTEM'   => '系统设置',
-                                ],
+    'view_replace_str'       => ['_PUBLIC_'      => '/iot1/web/public/static',],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
     'dispatch_error_tmpl'    => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',

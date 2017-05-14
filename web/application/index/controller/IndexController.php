@@ -1,9 +1,9 @@
 <?php
 namespace app\index\controller;
 
-use think\Controller;
+use app\index\controller\LoginAuth;
 
-class IndexController extends Controller
+class IndexController extends LoginAuth
 {
     public function index()
     {

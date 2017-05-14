@@ -3,15 +3,13 @@
 namespace app\index\controller;
 
 use app\index\controller\LoginAuth;
-use app\model\tAlarm;
-use app\model\tAlarmType;
-use app\model\tAlarmLevel;
-use app\model\tAlarmState;
+use app\model\tUser;
+use app\model\tUserLevel;
+use app\model\tUserState;
 
-class AlarmController extends LoginAuth
+class UserController extends LoginAuth
 {
     // relationship
-    private $_rel_type = array();
     private $_rel_level = array();
     private $_rel_state = array(); 
 
@@ -22,15 +20,7 @@ class AlarmController extends LoginAuth
             $this->redirect('index/Login/index');
         }
         
-        $t_type = new tAlarmType;
-        $lists = $t_type->select();
-        foreach ($lists as $key => $value)
-        {
-            $this->_rel_type[$key]['value'] = $value->getData('value');
-            $this->_rel_type[$key]['content'] = $value->getData('content');
-        }
-
-        $t_level = new tAlarmLevel;
+        $t_level = new tUserLevel;
         $lists = $t_level->select();
         foreach ($lists as $key => $value)
         {
@@ -38,7 +28,7 @@ class AlarmController extends LoginAuth
             $this->_rel_level[$key]['content'] = $value->getData('content');
         }
 
-        $t_state = new tAlarmState;
+        $t_state = new tUserState;
         $lists = $t_state->select();
         foreach ($lists as $key => $value)
         {
@@ -51,17 +41,7 @@ class AlarmController extends LoginAuth
     {
         $arr = array();
 
-        $arr['uid']         = $obj->getData('uid');
-
-        foreach ($this->_rel_type as $key => $value)
-        {
-            if ($value['value'] == $obj->getData('type'))
-            {
-                $arr['type'] = $value['content'];
-            }
-        }
-
-        $arr['count']       = $obj->getData('count');
+        $arr['name']        = $obj->getData('name');
 
         foreach ($this->_rel_level as $key => $value)
         {
@@ -80,25 +60,24 @@ class AlarmController extends LoginAuth
         }
 
         $arr['create_time'] = $obj->getData('create_time');
-        $arr['cancel_time'] = $obj->getData('cancel_time');
 
         return $arr;
     }
 
     public function index()
     {
-        $t_alarm = new tAlarm;
-        //$lists = $t_alarm->page(1, 5)->select();
-        $lists = $t_alarm->paginate(5);
+        $t_user = new tUser;
+
+        $lists = $t_user->paginate(5);
         $page = $lists->render();
 
-        $alarm_lists = array();
+        $user_lists = array();
         foreach ($lists as $key => $value) 
         {
-            array_push($alarm_lists, $this->getListByObj($value));
+            array_push($user_lists, $this->getListByObj($value));
         }
 
-        $this->assign('lists', $alarm_lists);
+        $this->assign('lists', $user_lists);
         $this->assign('page', $page);
 
         return $this->fetch();

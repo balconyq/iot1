@@ -1,0 +1,93 @@
+{include file='public:header'}
+{include file='public:sidebar'}
+
+<!-- BEGIN PAGE -->  
+
+<div class="page-content">
+
+	<!-- BEGIN PAGE CONTAINER-->
+
+	<div class="container-fluid">
+
+		<!-- BEGIN PAGE HEADER-->   
+
+		<div class="row-fluid">
+
+			<div class="span12">
+
+			<!-- BEGIN PAGE TITLE & BREADCRUMB-->
+
+            <h3 class="page-title" id=""></h3>
+
+				<ul class="breadcrumb">
+
+					<li>
+
+						<i class="icon-home"></i>
+
+						<a href="index.html">{:lang('_MOD_NODE')}</a> 
+
+						<span class="icon-angle-right"></span>
+
+					</li>
+
+					<li><a href="#">{:lang('_MOD_NODE_DETAIL')}</a></li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
+		<!-- END PAGE HEADER-->
+
+		<!-- BEGIN PAGE CONTENT-->
+
+		<div class="row-fluid">
+
+			<div class="span12">
+
+				<!-- BEGIN PORTLET-->   
+
+				<div class="portlet box green">
+
+					<div class="portlet-title">
+
+						<div class="caption"><i class="icon-reorder"></i>Node Operation</div>
+
+						<div class="tools">
+
+
+						</div>
+
+					</div>
+
+					<div class="portlet-body form">
+
+						<table class="table table-hover table-striped table-bordered">
+
+							<tr>
+
+								<td>Example</td>
+
+								<td><a class="btn blue" data-toggle="modal" data-target="#myModal">Operate</a></td>
+
+							</tr>
+
+						</table>
+
+					</div>
+
+				</div>
+
+				<!-- END PORTLET-->
+
+			</div>
+
+		</div>
+
+		<!-- END PAGE CONTENT-->         
+</div>
+<!-- END PAGE -->
+{include file='node:modal_op'}
+{include file='public:footer'}

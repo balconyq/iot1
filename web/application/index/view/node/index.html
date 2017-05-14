@@ -16,14 +16,14 @@
 
             <div class="span12">
 
-        <!-- BEGIN PAGE TITLE & BREADCRUMB-->
+            <!-- BEGIN PAGE TITLE & BREADCRUMB-->
 
-        <h3 class="page-title" id=""></h3>
+            <h3 class="page-title" id=""></h3>
 
-        <ul class="breadcrumb">
+            <ul class="breadcrumb">
             <li>
                 <i class="icon-sitemap"></i>
-                <a href="#">_MOD_NODE</a> 
+                <a href="#">{:lang('_MOD_NODE')}</a> 
                 <!-- <i class="icon-angle-right"></i> -->
             </li>
             <!-- <li><a href="#">xxx</a></li> -->
@@ -55,7 +55,7 @@
                         <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
                         <form id="form_keyword" class="search">
                             <input type="text" id="search_keyword" placeholder="Search..." style="float:left;padding:6px"/>
-                            <button id="form_search_bt" type="button" class="btn green" style="float:left">Search</button>
+                            <button id="form_search_bt" type="button" class="btn green" style="float:left">{:lang('_SEARCH')}</button>
                         </form>
                         <!-- END RESPONSIVE QUICK SEARCH FORM -->
 
@@ -63,12 +63,12 @@
 
                     <div class="btn-group pull-right">
 
-                        <button class="btn dropdown-toggle" data-toggle="dropdown">导出  <i class="icon-angle-down"></i></button>
+                        <button class="btn dropdown-toggle" data-toggle="dropdown">{:lang('_EXPORT')}  <i class="icon-angle-down"></i></button>
 
                         <ul class="dropdown-menu pull-right">
                            <!--  <li><a href="#">打印</a></li> -->
-                            <li><a href="#">导出PDF</a></li>
-                            <li><a href="{:url('Basisbom/boms_export')}">导出Excel</a></li>
+                            <li><a href="#">{:lang('_EXPORT')} PDF</a></li>
+                            <li><a href="{:url('Basisbom/boms_export')}">{:lang('_EXPORT')} Excel</a></li>
                         </ul>
                     </div>
                 </div>
@@ -77,18 +77,17 @@
                     <thead>
                         <tr>
                             <!-- <th style="width:8px;"><input type="checkbox" class="group-checkable" data-set="#sample_1 .checkboxes" /></th> -->
-                            <th>Index</th>
-                            <th class="hidden-480">UID</th>
-                            <th class="hidden-480">State</th>
-                            <th class="hidden-480">IP</th>
-                            <th class="hidden-480">Address</th>
-                            <th class="hidden-480">GisX</th>
-                            <th class="hidden-480">GisY</th>
-                            <th class="hidden-480">Group</th>
-                            <th class="hidden-480">Operator</th>
-                            <th class="hidden-480">Remark</th>
-                            <th class="hidden-480">Create Time</th>
-                            <th class="hidden-480">Update Time</th>
+                            <th>{:lang('_INDEX')}</th>
+                            <th class="hidden-480">{:lang('_NODE_UID')}</th>
+                            <th class="hidden-480">{:lang('_STATE')}</th>
+                            <th class="hidden-480">{:lang('_NODE_IP')}</th>
+                            <th class="hidden-480">{:lang('_NODE_ADDR')}</th>
+                            <th class="hidden-480">{:lang('_NODE_GISX')}</th>
+                            <th class="hidden-480">{:lang('_NODE_GISY')}</th>
+                            <th class="hidden-480">{:lang('_NODE_GROUP')}</th>
+                            <th class="hidden-480">{:lang('_NODE_OPERATOR')}</th>
+                            <th class="hidden-480">{:lang('_NODE_REMARK')}</th>
+                            <th class="hidden-480">{:lang('_UPDATE_T')}</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -97,18 +96,17 @@
                         <tr  class="odd gradeX">
                             <!-- <td><input type="checkbox" class="checkboxes" value="1" /></td> -->
                             <td>{$key}</td>
-                            <td class="center">{$list->getData('uid')}</td>
-                            <td class="center">{$list->getData('state')}</td>
-                            <td class="center">{long2ip($list->getData('ip'))}</td>
-                            <td class="center">{$list->getData('addr')}</td>
-                            <td class="center">{$list->getData('gisx')}</td>
-                            <td class="center">{$list->getData('gisy')}</td>
-                            <td class="center">{$list->getData('group')}</td>
-                            <td class="center">{$list->getData('operator')}</td>
-                            <td class="center">{$list->getData('remark')}</td>
-                            <td class="center">{$list->getData('create_time')}</td>
-                            <td class="center">{$list->getData('update_time')}</td>
-                            <td><button class='page_bom_td_edit mini btn green'  data-toggle="modal" data-target="#myModal">Operate</button></td>
+                            <td class="center">{$list.uid}</td>
+                            <td class="center">{$list.state}</td>
+                            <td class="center">{$list.ip|long2ip}</td>
+                            <td class="center">{$list.addr}</td>
+                            <td class="center">{$list.gisx}</td>
+                            <td class="center">{$list.gisy}</td>
+                            <td class="center">{$list.group}</td>
+                            <td class="center">{$list.operator}</td>
+                            <td class="center">{$list.remark}</td>
+                            <td class="center">{$list.update_time}</td>
+                            <td><button class='page_bom_td_edit mini btn green' onclick='location.href="{:url('Node/detail')}"''>Detail</button></td>
                         </tr>
                         {/volist}
                     </tbody>
@@ -117,6 +115,7 @@
                     <tfoot></tfoot>
 
                 </table>
+                {$page}
 
                 <div class="row-fluid">
                     <div class="span6">
@@ -159,6 +158,5 @@
 <!-- END PAGE CONTENT-->
 </div>
 <!-- END PAGE -->
-{include file='node:modal_op'}
 
 {include file='public:footer'}
