@@ -17,7 +17,7 @@
         $.ajax(
         {
             type:"post",
-            url:"../Node/node_get_to_map",
+            url:url_node_node_get_to_map,
             data:post_data,
             dataType:'json',
             success:function(result)

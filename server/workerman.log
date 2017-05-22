@@ -8453,3 +8453,229 @@ Stack trace:
 2017-05-09 17:50:35 pid:11240 Workerman[start.php] start in DEBUG mode
 2017-05-09 17:50:39 pid:11240 Workerman[start.php] Stopping ...
 2017-05-09 17:50:39 pid:11240 Workerman[start.php] has been stopped
+2017-05-20 18:08:43 pid:20791 Workerman[start.php] start in DEBUG mode
+2017-05-20 18:09:21 pid:20791 Workerman[start.php] Stopping ...
+2017-05-20 18:09:21 pid:20791 Workerman[start.php] has been stopped
+2017-05-20 18:12:09 pid:20918 Workerman[start.php] start in DEBUG mode
+2017-05-20 18:12:28 pid:20918 Workerman[start.php] Stopping ...
+2017-05-20 18:12:28 pid:20918 Workerman[start.php] has been stopped
+2017-05-20 18:19:54 pid:21263 Workerman[start.php] start in DEBUG mode
+2017-05-20 18:20:04 pid:21263 Workerman[start.php] Stopping ...
+2017-05-20 18:20:04 pid:21263 Workerman[start.php] has been stopped
+2017-05-20 18:31:03 pid:21588 Workerman[start.php] start in DEBUG mode
+2017-05-20 18:31:13 pid:21588 Workerman[start.php] Stopping ...
+2017-05-20 18:31:13 pid:21588 Workerman[start.php] has been stopped
+2017-05-20 18:41:33 pid:22088 Workerman[start.php] start in DEBUG mode
+2017-05-20 18:41:44 pid:22088 Workerman[start.php] Stopping ...
+2017-05-20 18:41:44 pid:22088 Workerman[start.php] has been stopped
+2017-05-20 18:57:01 pid:22629 Workerman[start.php] start in DEBUG mode
+2017-05-20 18:57:11 pid:22629 Workerman[start.php] Stopping ...
+2017-05-20 18:57:11 pid:22629 Workerman[start.php] has been stopped
+2017-05-20 18:58:45 pid:22734 Workerman[start.php] start in DEBUG mode
+2017-05-20 18:58:51 pid:22734 Workerman[start.php] Stopping ...
+2017-05-20 18:58:51 pid:22734 Workerman[start.php] has been stopped
+2017-05-20 21:14:46 pid:23615 Workerman[start.php] start in DEBUG mode
+2017-05-20 21:14:52 pid:23615 Workerman[start.php] Stopping ...
+2017-05-20 21:14:52 pid:23615 Workerman[start.php] has been stopped
+2017-05-20 21:19:00 pid:23745 Workerman[start.php] start in DEBUG mode
+2017-05-20 21:19:07 pid:23745 Workerman[start.php] Stopping ...
+2017-05-20 21:19:07 pid:23745 Workerman[start.php] has been stopped
+2017-05-20 21:22:48 pid:23819 Workerman[start.php] start in DEBUG mode
+2017-05-20 21:23:50 pid:23819 Workerman[start.php] Stopping ...
+2017-05-20 21:23:50 pid:23819 Workerman[start.php] has been stopped
+2017-05-20 21:28:20 pid:23903 Workerman[start.php] start in DEBUG mode
+2017-05-20 21:28:46 pid:23903 Workerman[start.php] Stopping ...
+2017-05-20 21:28:46 pid:23903 Workerman[start.php] has been stopped
+2017-05-20 21:29:30 pid:23955 Workerman[start.php] start in DEBUG mode
+2017-05-20 21:29:38 pid:23955 Workerman[start.php] Stopping ...
+2017-05-20 21:29:38 pid:23955 Workerman[start.php] has been stopped
+2017-05-20 21:31:13 pid:23988 Workerman[start.php] start in DEBUG mode
+2017-05-20 21:44:12 pid:23988 Workerman[start.php] Stopping ...
+2017-05-20 21:44:12 pid:23988 Workerman[start.php] has been stopped
+2017-05-20 21:44:15 pid:24193 Workerman[start.php] start in DEBUG mode
+2017-05-20 21:44:27 pid:24193 Workerman[start.php] Stopping ...
+2017-05-20 21:44:27 pid:24193 Workerman[start.php] has been stopped
+2017-05-20 22:38:01 pid:25289 Workerman[start.php] start in DEBUG mode
+2017-05-20 22:38:11 pid:25289 Workerman[start.php] Stopping ...
+2017-05-20 22:38:11 pid:25289 Workerman[start.php] has been stopped
+2017-05-20 22:39:53 pid:25384 Workerman[start.php] start in DEBUG mode
+2017-05-20 22:40:00 pid:25384 Workerman[start.php] Stopping ...
+2017-05-20 22:40:00 pid:25384 Workerman[start.php] has been stopped
+2017-05-20 22:47:36 pid:25545 Workerman[start.php] start in DEBUG mode
+2017-05-20 22:47:47 pid:25545 Workerman[start.php] Stopping ...
+2017-05-20 22:47:47 pid:25545 Workerman[start.php] has been stopped
+2017-05-20 22:50:43 pid:25620 Workerman[start.php] start in DEBUG mode
+2017-05-20 22:50:48 pid:25620 Workerman[start.php] Stopping ...
+2017-05-20 22:50:48 pid:25620 Workerman[start.php] has been stopped
+2017-05-20 22:51:52 pid:25672 Workerman[start.php] start in DEBUG mode
+2017-05-20 22:52:01 pid:25672 Workerman[start.php] Stopping ...
+2017-05-20 22:52:01 pid:25672 Workerman[start.php] has been stopped
+2017-05-20 22:53:14 pid:25702 Workerman[start.php] start in DEBUG mode
+2017-05-20 22:53:22 pid:25702 Workerman[start.php] Stopping ...
+2017-05-20 22:53:22 pid:25702 Workerman[start.php] has been stopped
+2017-05-20 22:54:15 pid:25738 Workerman[start.php] start in DEBUG mode
+2017-05-20 22:54:20 pid:25738 Workerman[start.php] Stopping ...
+2017-05-20 22:54:20 pid:25738 Workerman[start.php] has been stopped
+2017-05-20 22:55:07 pid:25784 Workerman[start.php] start in DEBUG mode
+2017-05-20 22:55:09 pid:25785 Error: Class 'Workerman\Protocols\Protocol1\DB' not found in /home/qixx/www/iot1/server/Workerman/Protocols/Protocol1/P1Db.php:169
+Stack trace:
+#0 /home/qixx/www/iot1/server/Workerman/Protocols/Protocol1/P1Handler.php(104): Workerman\Protocols\Protocol1\P1Db->report_add(Array)
+#1 /home/qixx/www/iot1/server/Workerman/Protocols/Protocol1/P1Handler.php(22): {closure}(Array, 'CMD_REPORT')
+#2 /home/qixx/www/iot1/server/south_server.php(175): p1Parse(Array, 'CMD_REPORT')
+#3 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#4 /home/qixx/www/iot1/server/Workerman/Connection/TcpConnection.php(480): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), Array)
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #34)
+#6 /home/qixx/www/iot1/server/Workerman/Events/Select.php(250): call_user_func_array(Array, Array)
+#7 /home/qixx/www/iot1/server/Workerman/Worker.php(1561): Workerman\Events\Select->loop()
+#8 /home/qixx/www/iot1/server/Workerman/Worker.php(959): Workerman\Worker->run()
+#9 /home/qixx/www/iot1/server/Workerman/Worker.php(922): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#10 /home/qixx/www/iot1/server/Workerman/Worker.php(430): Workerman\Worker::forkWorkers()
+#11 /home/qixx/www/iot1/server/start.php(20): Workerman\Worker::runAll()
+#12 {main}
+2017-05-20 22:55:09 pid:25785 WORKER EXIT UNEXPECTED 
+2017-05-20 22:55:09 pid:25784 worker[South:25785] exit with status 64000
+2017-05-20 22:55:13 pid:25784 Workerman[start.php] Stopping ...
+2017-05-20 22:55:13 pid:25784 Workerman[start.php] has been stopped
+2017-05-20 23:07:07 pid:26057 Workerman[start.php] start in DEBUG mode
+2017-05-20 23:07:21 pid:26057 Workerman[start.php] Stopping ...
+2017-05-20 23:07:21 pid:26057 Workerman[start.php] has been stopped
+2017-05-20 23:08:23 pid:26098 Workerman[start.php] start in DEBUG mode
+2017-05-20 23:08:33 pid:26098 Workerman[start.php] Stopping ...
+2017-05-20 23:08:33 pid:26098 Workerman[start.php] has been stopped
+2017-05-20 23:11:22 pid:26198 Workerman[start.php] start in DEBUG mode
+2017-05-20 23:11:28 pid:26198 Workerman[start.php] Stopping ...
+2017-05-20 23:11:28 pid:26198 Workerman[start.php] has been stopped
+2017-05-20 23:13:48 pid:26277 Workerman[start.php] start in DEBUG mode
+2017-05-20 23:14:14 pid:26277 Workerman[start.php] Stopping ...
+2017-05-20 23:14:14 pid:26277 Workerman[start.php] has been stopped
+2017-05-20 23:14:15 pid:26303 Workerman[start.php] start in DEBUG mode
+2017-05-20 23:14:20 pid:26303 Workerman[start.php] Stopping ...
+2017-05-20 23:14:20 pid:26303 Workerman[start.php] has been stopped
+2017-05-20 23:17:26 pid:26353 Workerman[start.php] start in DEBUG mode
+2017-05-20 23:17:31 pid:26353 Workerman[start.php] Stopping ...
+2017-05-20 23:17:31 pid:26353 Workerman[start.php] has been stopped
+2017-05-20 23:21:53 pid:26400 Workerman[start.php] start in DEBUG mode
+2017-05-20 23:21:58 pid:26400 Workerman[start.php] Stopping ...
+2017-05-20 23:21:58 pid:26400 Workerman[start.php] has been stopped
+2017-05-20 23:25:26 pid:26529 Workerman[start.php] start in DEBUG mode
+2017-05-20 23:25:34 pid:26529 Workerman[start.php] Stopping ...
+2017-05-20 23:25:34 pid:26529 Workerman[start.php] has been stopped
+2017-05-20 23:25:46 pid:26552 Workerman[start.php] start in DEBUG mode
+2017-05-20 23:25:58 pid:26552 Workerman[start.php] Stopping ...
+2017-05-20 23:25:58 pid:26552 Workerman[start.php] has been stopped
+2017-05-20 23:27:38 pid:26587 Workerman[start.php] start in DEBUG mode
+2017-05-20 23:27:45 pid:26587 Workerman[start.php] Stopping ...
+2017-05-20 23:27:45 pid:26587 Workerman[start.php] has been stopped
+2017-05-20 23:28:23 pid:26621 Workerman[start.php] start in DEBUG mode
+2017-05-20 23:28:29 pid:26621 Workerman[start.php] Stopping ...
+2017-05-20 23:28:29 pid:26621 Workerman[start.php] has been stopped
+2017-05-21 09:11:24 pid:29143 Workerman[start.php] start in DEBUG mode
+2017-05-21 09:27:26 pid:29143 Workerman[start.php] Stopping ...
+2017-05-21 09:27:26 pid:29143 Workerman[start.php] has been stopped
+2017-05-21 12:06:31 pid:2822 Workerman[start.php] start.php 
+2017-05-21 12:06:31 pid:2822 Workerman[start.php] not run
+2017-05-21 12:06:38 pid:2827 Workerman[start.php] start in DEBUG mode
+2017-05-21 12:07:39 pid:2827 Workerman[start.php] Stopping ...
+2017-05-21 12:07:39 pid:2827 Workerman[start.php] has been stopped
+2017-05-21 16:34:59 pid:7383 Workerman[start.php] start in DEBUG mode
+2017-05-21 16:35:16 pid:7383 Workerman[start.php] Stopping ...
+2017-05-21 16:35:16 pid:7383 Workerman[start.php] has been stopped
+2017-05-21 16:38:47 pid:7902 Workerman[start.php] start in DEBUG mode
+2017-05-21 16:39:00 pid:7902 Workerman[start.php] Stopping ...
+2017-05-21 16:39:00 pid:7902 Workerman[start.php] has been stopped
+2017-05-21 16:40:57 pid:8089 Workerman[start.php] start in DEBUG mode
+2017-05-21 16:41:13 pid:8089 Workerman[start.php] Stopping ...
+2017-05-21 16:41:13 pid:8089 Workerman[start.php] has been stopped
+2017-05-21 16:43:05 pid:8162 Workerman[start.php] start in DEBUG mode
+2017-05-21 16:43:19 pid:8162 Workerman[start.php] Stopping ...
+2017-05-21 16:43:19 pid:8162 Workerman[start.php] has been stopped
+2017-05-21 16:44:08 pid:8215 Workerman[start.php] start in DEBUG mode
+2017-05-21 16:44:19 pid:8215 Workerman[start.php] Stopping ...
+2017-05-21 16:44:19 pid:8215 Workerman[start.php] has been stopped
+2017-05-21 16:45:53 pid:8611 Workerman[start.php] start in DEBUG mode
+2017-05-21 16:45:56 pid:8612 PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'Array' for column 'time' at row 1 in /home/qixx/www/iot1/server/Workerman/Vendor/Mysql/Connection.php:1740
+Stack trace:
+#0 /home/qixx/www/iot1/server/Workerman/Vendor/Mysql/Connection.php(1740): PDOStatement->execute()
+#1 /home/qixx/www/iot1/server/Workerman/Vendor/Mysql/Connection.php(1820): Workerman\MySQL\Connection->execute('INSERT INTO `t_...', Array)
+#2 /home/qixx/www/iot1/server/Workerman/Protocols/Protocol1/P1Db.php(182): Workerman\MySQL\Connection->query()
+#3 /home/qixx/www/iot1/server/Workerman/Protocols/Protocol1/P1Handler.php(105): Workerman\Protocols\Protocol1\P1Db->report_add(Array)
+#4 /home/qixx/www/iot1/server/Workerman/Protocols/Protocol1/P1Handler.php(22): {closure}(Array, 'CMD_REPORT')
+#5 /home/qixx/www/iot1/server/south_server.php(175): p1Parse(Array, 'CMD_REPORT')
+#6 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#7 /home/qixx/www/iot1/server/Workerman/Connection/TcpConnection.php(480): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #34)
+#9 /home/qixx/www/iot1/server/Workerman/Events/Select.php(250): call_user_func_array(Array, Array)
+#10 /home/qixx/www/iot1/server/Workerman/Worker.php(1561): Workerman\Events\Select->loop()
+#11 /home/qixx/www/iot1/server/Workerman/Worker.php(959): Workerman\Worker->run()
+#12 /home/qixx/www/iot1/server/Workerman/Worker.php(922): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#13 /home/qixx/www/iot1/server/Workerman/Worker.php(430): Workerman\Worker::forkWorkers()
+#14 /home/qixx/www/iot1/server/start.php(20): Workerman\Worker::runAll()
+#15 {main}
+2017-05-21 16:45:56 pid:8612 WORKER EXIT UNEXPECTED 
+2017-05-21 16:45:56 pid:8611 worker[South:8612] exit with status 64000
+2017-05-21 16:45:59 pid:8611 Workerman[start.php] Stopping ...
+2017-05-21 16:45:59 pid:8611 Workerman[start.php] has been stopped
+2017-05-21 16:47:17 pid:8659 Workerman[start.php] start in DEBUG mode
+2017-05-21 16:47:19 pid:8660 PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1495356439' for column 'time' at row 1 in /home/qixx/www/iot1/server/Workerman/Vendor/Mysql/Connection.php:1740
+Stack trace:
+#0 /home/qixx/www/iot1/server/Workerman/Vendor/Mysql/Connection.php(1740): PDOStatement->execute()
+#1 /home/qixx/www/iot1/server/Workerman/Vendor/Mysql/Connection.php(1820): Workerman\MySQL\Connection->execute('INSERT INTO `t_...', Array)
+#2 /home/qixx/www/iot1/server/Workerman/Protocols/Protocol1/P1Db.php(182): Workerman\MySQL\Connection->query()
+#3 /home/qixx/www/iot1/server/Workerman/Protocols/Protocol1/P1Handler.php(105): Workerman\Protocols\Protocol1\P1Db->report_add(Array)
+#4 /home/qixx/www/iot1/server/Workerman/Protocols/Protocol1/P1Handler.php(22): {closure}(Array, 'CMD_REPORT')
+#5 /home/qixx/www/iot1/server/south_server.php(175): p1Parse(Array, 'CMD_REPORT')
+#6 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Array)
+#7 /home/qixx/www/iot1/server/Workerman/Connection/TcpConnection.php(480): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), Array)
+#8 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #34)
+#9 /home/qixx/www/iot1/server/Workerman/Events/Select.php(250): call_user_func_array(Array, Array)
+#10 /home/qixx/www/iot1/server/Workerman/Worker.php(1561): Workerman\Events\Select->loop()
+#11 /home/qixx/www/iot1/server/Workerman/Worker.php(959): Workerman\Worker->run()
+#12 /home/qixx/www/iot1/server/Workerman/Worker.php(922): Workerman\Worker::forkOneWorker(Object(Workerman\Worker))
+#13 /home/qixx/www/iot1/server/Workerman/Worker.php(430): Workerman\Worker::forkWorkers()
+#14 /home/qixx/www/iot1/server/start.php(20): Workerman\Worker::runAll()
+#15 {main}
+2017-05-21 16:47:19 pid:8660 WORKER EXIT UNEXPECTED 
+2017-05-21 16:47:19 pid:8659 worker[South:8660] exit with status 64000
+2017-05-21 16:47:21 pid:8659 Workerman[start.php] Stopping ...
+2017-05-21 16:47:21 pid:8659 Workerman[start.php] has been stopped
+2017-05-21 16:57:59 pid:8970 Workerman[start.php] start in DEBUG mode
+2017-05-21 16:58:09 pid:8970 Workerman[start.php] Stopping ...
+2017-05-21 16:58:09 pid:8970 Workerman[start.php] has been stopped
+2017-05-21 16:59:09 pid:9000 Workerman[start.php] start in DEBUG mode
+2017-05-21 16:59:24 pid:9000 Workerman[start.php] Stopping ...
+2017-05-21 16:59:24 pid:9000 Workerman[start.php] has been stopped
+2017-05-21 17:02:43 pid:9165 Workerman[start.php] start in DEBUG mode
+2017-05-21 17:03:28 pid:9165 Workerman[start.php] Stopping ...
+2017-05-21 17:03:28 pid:9165 Workerman[start.php] has been stopped
+2017-05-21 17:05:54 pid:9293 Workerman[start.php] start in DEBUG mode
+2017-05-21 17:06:16 pid:9293 Workerman[start.php] Stopping ...
+2017-05-21 17:06:16 pid:9293 Workerman[start.php] has been stopped
+2017-05-21 17:15:01 pid:9527 Workerman[start.php] start in DEBUG mode
+2017-05-21 17:54:34 pid:9527 Workerman[start.php] Stopping ...
+2017-05-21 17:54:34 pid:9527 Workerman[start.php] has been stopped
+2017-05-22 10:49:04 pid:4126 Workerman[start.php] start in DEBUG mode
+2017-05-22 10:52:17 pid:4126 Workerman[start.php] Stopping ...
+2017-05-22 10:52:17 pid:4126 Workerman[start.php] has been stopped
+2017-05-22 10:52:36 pid:4182 Workerman[start.php] start in DEBUG mode
+2017-05-22 10:53:06 pid:4215 Workerman[start.php] start in DEBUG mode
+2017-05-22 10:53:22 pid:4230 Workerman[start.php] start in DEBUG mode
+2017-05-22 10:53:22 pid:4230 Workerman[start.php] already running
+2017-05-22 11:17:59 pid:4948 Workerman[start.php] start in DEBUG mode
+2017-05-22 11:21:10 pid:5297 Workerman[start.php] start in DEBUG mode
+2017-05-22 11:27:25 pid:5481 Workerman[start.php] start in DAEMON mode
+2017-05-22 11:28:01 pid:5547 Workerman[start.php] stauts 
+2017-05-22 11:28:41 pid:5552 Workerman[start.php] status 
+2017-05-22 11:31:20 pid:5626 Workerman[start.php] status 
+2017-05-22 11:31:23 pid:5627 Workerman[start.php] stop 
+2017-05-22 11:31:23 pid:5627 Workerman[start.php] is stoping ...
+2017-05-22 11:31:23 pid:5483 Workerman[start.php] Stopping ...
+2017-05-22 11:31:23 pid:5483 Workerman[start.php] has been stopped
+2017-05-22 11:31:23 pid:5627 Workerman[start.php] stop success
+2017-05-22 11:31:26 pid:5628 Workerman[start.php] status 
+2017-05-22 11:31:26 pid:5628 Workerman[start.php] not run
+2017-05-22 11:33:16 pid:5758 Workerman[start.php] start in DAEMON mode
+2017-05-22 11:34:22 pid:5812 Workerman[start.php] stop 
+2017-05-22 11:34:22 pid:5812 Workerman[start.php] is stoping ...
+2017-05-22 11:34:22 pid:5760 Workerman[start.php] Stopping ...
+2017-05-22 11:34:22 pid:5760 Workerman[start.php] has been stopped
+2017-05-22 11:34:22 pid:5812 Workerman[start.php] stop success

@@ -40,8 +40,6 @@ $p1_handler[CMD_LOGIN] = function($package, & $ret_data)
 
     $ret_data = 'CMD_LOGIN';
 
-    print_r($package);
-
     $arr = array();
 
     $arr['uid']     = $package['uid'];
@@ -86,3 +84,25 @@ $p1_handler[CMD_ALARM] = function($package, & $ret_data)
     return true;
 };
 
+
+// Report
+$p1_handler[CMD_REPORT] = function($package, & $ret_data)
+{
+    global $g_P1Db;
+
+    $ret_data = 'CMD_REPORT';
+
+    $f = unpack('Nvalue', $package['data']);
+    $index = $f['value'] * 1.0 / 10000;
+
+    $arr = array();
+
+    $arr['uid']     = $package['uid'];
+    $arr['time']    = date("Y-m-d H:i:s");
+    $arr['value']   = $index;
+
+    // store to DB;
+    $g_P1Db->report_add($arr);
+
+    return true;
+};

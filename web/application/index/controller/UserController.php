@@ -2,12 +2,12 @@
 
 namespace app\index\controller;
 
-use app\index\controller\LoginAuth;
+use think\Controller;
 use app\model\tUser;
 use app\model\tUserLevel;
 use app\model\tUserState;
 
-class UserController extends LoginAuth
+class UserController extends Controller
 {
     // relationship
     private $_rel_level = array();

@@ -8,3 +8,4 @@ define('CMD_LOGIN',     0x20000001);
 define('CMD_HEARTBEAT', 0x20000002);
 
 define('CMD_ALARM',     0x30000001);
+define('CMD_REPORT',    0x30000002);

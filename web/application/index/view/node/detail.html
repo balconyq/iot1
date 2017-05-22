@@ -1,6 +1,9 @@
 {include file='public:header'}
 {include file='public:sidebar'}
 
+<script src="_PUBLIC_/js/pack/dygraph-combined.js" type="text/javascript"></script>
+<script src="_PUBLIC_/js/pack/node_statistics.js" type="text/javascript"></script>
+
 <!-- BEGIN PAGE -->  
 
 <div class="page-content">
@@ -49,6 +52,38 @@
 
 				<!-- BEGIN PORTLET-->   
 
+				<!-- BEGIN INTERACTIVE CHART PORTLET-->
+
+				<div class="portlet box red">
+
+					<div class="portlet-title">
+
+						<div class="caption"><i class="icon-reorder"></i>上证综指</div>
+
+						<div class="tools">
+
+							<a href="javascript:;" class="collapse"></a>
+
+							<!-- <a href="#portlet-config" data-toggle="modal" class="config"></a> -->
+
+							<a id="chart_index_reload" class="reload"></a>
+
+							<!-- <a href="javascript:;" class="remove"></a> -->
+
+						</div>
+
+					</div>
+
+					<div class="portlet-body">
+
+						<div id="chart_index" class="chart"></div>
+
+					</div>
+
+				</div>
+
+				<!-- END INTERACTIVE CHART PORTLET-->   
+
 				<div class="portlet box green">
 
 					<div class="portlet-title">
@@ -56,7 +91,7 @@
 						<div class="caption"><i class="icon-reorder"></i>Node Operation</div>
 
 						<div class="tools">
-
+							<a href="javascript:;" class="collapse"></a>
 
 						</div>
 

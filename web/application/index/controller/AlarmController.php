@@ -2,13 +2,13 @@
 
 namespace app\index\controller;
 
-use app\index\controller\LoginAuth;
+use think\Controller;
 use app\model\tAlarm;
 use app\model\tAlarmType;
 use app\model\tAlarmLevel;
 use app\model\tAlarmState;
 
-class AlarmController extends LoginAuth
+class AlarmController extends Controller
 {
     // relationship
     private $_rel_type = array();

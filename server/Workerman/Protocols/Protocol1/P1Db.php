@@ -163,4 +163,22 @@ class P1Db
             'remark'=>$arr['remark']
             ))->query();
     }
+
+    public function report_add($arr)
+    {
+        $db_arr = $this->db->query("SELECT count(id) FROM `t_report_index`");
+        $num = $db_arr[0]['count(id)'];
+
+        if (100 <= $num)
+        {
+            // delete the oldest one
+            $this->db->query("DELETE FROM `t_report_index` LIMIT 1");
+        }
+
+        $ret = $this->db->insert('t_report_index')->cols(array(
+            'uid'=>$arr['uid'],
+            'value'=>$arr['value'],
+            'time'=>$arr['time'],
+            ))->query();
+    }
 }

@@ -2,9 +2,9 @@
 
 namespace app\index\controller;
 
-use app\index\controller\LoginAuth;
+use think\Controller;
 
-class StatisController extends LoginAuth
+class StatisController extends Controller
 {
     public function index()
     {

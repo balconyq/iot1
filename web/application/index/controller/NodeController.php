@@ -2,11 +2,14 @@
 
 namespace app\index\controller;
 
-use app\index\controller\LoginAuth;
+use think\Controller;
+
 use app\model\tNode;
 use app\model\tNodeState;
 
-class NodeController extends LoginAuth
+use app\model\tReportIndex;
+
+class NodeController extends Controller
 {
     private $node_rel = array();    // relationship in table node;
 
@@ -105,6 +108,32 @@ class NodeController extends LoginAuth
         return json_encode($node_lists);
     }
 
+    public function node_report_index_get()
+    {
+        $t_rp_index = new tReportIndex;
+
+        //return $postData;
+
+        $lists = $t_rp_index
+            ->limit(100)
+            ->order('time')
+            ->select();
+        //$lists = $t_node->select();
+
+        $index_lists = array();
+        foreach ($lists as $key => $value) 
+        {
+            $arr = array();
+            $arr['uid']     = $value->getData('uid');
+            $arr['value']     = $value->getData('value');
+            $arr['time']     = $value->getData('time');
+
+            array_push($index_lists, $arr);
+        }
+
+        return json_encode($index_lists);
+    }
+
     public function node_get_by_uid()
     {
         $postData = input('post.');
@@ -149,13 +178,7 @@ class NodeController extends LoginAuth
 
     public function test()
     {
-        $test = array();
-        //var_dump($test);
-        $arr1 = array();
-        $arr1['t'] = '123';
 
-        array_push($test, $arr1);
-
-        var_dump($test);
+        phpInfo();
     }
 }

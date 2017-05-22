@@ -18,7 +18,7 @@ struct down{
 version:    100
 serial:     package serial number
 length:     total.len
-state:      down->0x00, up->0xff(success), 0xfe...(fail), 0x01(alarm), 0x02(report)
+state:      out->0x00, in->0xff(success), 0xfe...(fail)
 command:    0x01, 0x02, ..., 0xfe
 crc:        x^16 + x^12 + x^5 + 1
 */
@@ -47,7 +47,7 @@ function pkgDecode($recv_buffer)
     // 解包
     $package_head = unpack('Chead/nversion/Nlength/Nuid/Ncommand/Cstate', $recv_buffer);
 
-    print_r($package_head);
+    //print_r($package_head);
 
     // 校验
     if ((HEAD != $package_head['head']) ||
