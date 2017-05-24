@@ -82,13 +82,21 @@ class NodeController extends Controller
         return $this->fetch();
     }
 
-    public function node_get_to_map()
+    public function node_uid_set()
+    {
+        $postData = input('post.');
+
+        $node_curr_uid = (int)($postData['node_curr_uid']);
+        session("node_cur_uid", $node_curr_uid);
+
+        return true;
+    }
+
+    public function nodes_get_to_map()
     {
         $postData = input('post.');
 
         $t_node = new tNode;
-
-        //return $postData;
 
         $lists = $t_node
             ->where('gisx', '>', $postData['psw_x'])
@@ -97,7 +105,6 @@ class NodeController extends Controller
             ->where('gisy', '<', $postData['pne_y'])
             //->limit(1000)
             ->select();
-        //$lists = $t_node->select();
 
         $node_lists = array();
         foreach ($lists as $key => $value) 
@@ -108,30 +115,39 @@ class NodeController extends Controller
         return json_encode($node_lists);
     }
 
-    public function node_report_index_get()
+    public function node_value_get()
     {
-        $t_rp_index = new tReportIndex;
+        $postData = input('post.');
 
-        //return $postData;
+        $uid = session("node_cur_uid");
 
-        $lists = $t_rp_index
-            ->limit(100)
-            ->order('time')
-            ->select();
-        //$lists = $t_node->select();
+        $value_lists = array();
 
-        $index_lists = array();
-        foreach ($lists as $key => $value) 
+        switch ($postData['value'])
         {
-            $arr = array();
-            $arr['uid']     = $value->getData('uid');
-            $arr['value']     = $value->getData('value');
-            $arr['time']     = $value->getData('time');
+        case "sh_index":
+            $t_rp_index = new tReportIndex;
+            $lists = $t_rp_index
+                ->where('uid', 'eq', $uid)
+                ->limit(100)
+                ->order('time')
+                ->select();
 
-            array_push($index_lists, $arr);
+            foreach ($lists as $key => $value) 
+            {
+                $arr = array();
+                $arr['uid']     = $value->getData('uid');
+                $arr['value']     = $value->getData('value');
+                $arr['time']     = $value->getData('time');
+
+                array_push($value_lists, $arr);
+            }
+        break;
+        default:
+        break;
         }
 
-        return json_encode($index_lists);
+        return json_encode($value_lists);
     }
 
     public function node_get_by_uid()

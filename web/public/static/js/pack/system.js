@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+    // language
     $(".a_lang_select").click(function() 
     {
         var data={'lang':$(this).attr('lang')};

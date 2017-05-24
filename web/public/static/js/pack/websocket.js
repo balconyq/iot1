@@ -30,7 +30,7 @@ function wsInit()
         return ;
     }
 
-    ws = new WebSocket("ws://localhost:40002");
+    ws = new WebSocket("ws://120.77.81.112:40002");
     ws.onopen = function(event)
     {
         console.log('ws.onopen');
@@ -50,6 +50,7 @@ function wsInit()
 
     ws.onerror = function(event)
     {
+        alert("Can't connect to server, Please Check");
         console.log("ws.onerror");
     };
 };

@@ -155,7 +155,7 @@
             ;
         var sContent =
             "<h4 style='margin:0 0 5px 0;padding:0.2em 0'>智能节点</h4>" + 
-            "<img style='float:right;margin:4px' id='imgDemo' src='/iot1-master/web/public/static/image/avatar.png' width='139' height='104' title='node_pic'/>" + 
+            "<img style='float:right;margin:4px' id='imgDemo' src='/public/static/image/node.png' width='139' height='104' title='node_pic'/>" + 
             "<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>"+node_disc+"</p>" + 
             "</div>";
 
@@ -186,7 +186,7 @@
                 ;
             var sContent =
                 "<h4 style='margin:0 0 5px 0;padding:0.2em 0'>智能节点</h4>" + 
-                "<img style='float:right;margin:4px' id='imgDemo' src='/iot1-master/web/public/static/image/avatar.png' width='139' height='104' title='node_pic'/>" + 
+                "<img style='float:right;margin:4px' id='imgDemo' src='/public/static/image/node.png' width='139' height='104' title='node_pic'/>" + 
                 "<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>"+node_disc+"</p>" + 
                 "</div>";
 

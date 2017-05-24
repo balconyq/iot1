@@ -41,8 +41,8 @@ class LoginController extends Controller
 
         if ($user = $user->where($where_query)->find()) 
         {
-            session('username',$data['username'],'think');
-            session('password',$data['password'],'think');
+            session('username',$data['username']);
+            session('password',$data['password']);
 
             $this->redirect('index/Index/index');
         }
@@ -55,7 +55,8 @@ class LoginController extends Controller
     public function logout()
     {
         $request = request();
-        session(null, 'think');
+        session('username', null);
+        session('password', null);
         $this->redirect('index/Login/index');
     }
 

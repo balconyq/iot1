@@ -73,6 +73,9 @@
 
     <![endif]-->   
 
+     <script src="_PUBLIC_/js/pack/system.js" type="text/javascript"></script>
+     <script src="_PUBLIC_/js/pack/node.js" type="text/javascript"></script>
+
     {include file='public:url'}
 
 </head>
@@ -283,7 +286,7 @@
 
                                 <a href="inbox.html?a=view">
 
-                                <span class="photo"><img src="_PUBLIC_/image/avatar3.jpg" alt="" /></span>
+                                <span class="photo"><img src="_PUBLIC_/image/avatar1.jpg" alt="" /></span>
 
                                 <span class="subject">
 
@@ -350,14 +353,17 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 
                         <!-- <i class="icon-tasks"></i> -->
-                        <img alt="" src="_PUBLIC_/image/lang_en_16px.ico" />
-
+                        <img alt="" src="_PUBLIC_/image/{switch name=cookie('think_var')}
+                                {case value="en-us"}lang_en_16px.ico{/case}
+                                {case value="zh-cn"}lang_zh_16px.ico{/case}
+                                {default /}default
+                            {/switch}" />
                         </a>
 
                         <ul class="dropdown-menu extended">
 
                             <li>
-                                <a href="#" class="a_lang_select" lang='cn'>
+                                <a href="javascript:;" class="a_lang_select" lang='cn'>
                                 <img alt="" src="_PUBLIC_/image/lang_zh_16px.ico" />
                                 <span class="desc">{:lang('_LANG_ZH_CN')}</span>
                                 <span style="width: 65%;" class="bar"></span>
@@ -365,7 +371,7 @@
                             </li>
 
                             <li>
-                                <a href="#" class="a_lang_select" lang='en'>
+                                <a href="javascript:;" class="a_lang_select" lang='en'>
                                 <img alt="" src="_PUBLIC_/image/lang_en_16px.ico" />
                                 <span class="desc">{:lang('_LANG_EN_US')}</span>
                                 <span style="width: 65%;" class="bar"></span>

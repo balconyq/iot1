@@ -4,17 +4,28 @@ $(document).ready(function(){
     {
         var chart_data = new Array();
 
+        var post_data = {
+                value:"sh_index",
+            };
+
         $.ajax(
         {
-            type:"get",
-            url:"../Node/node_report_index_get",
-            data:null,
+            type:"post",
+            url:"../Node/node_value_get",
+            data:post_data,
             dataType:'json',
             success:function(result)
             {
+                //console.log(result);
                 var node_json = $.parseJSON(result);
 
                 var node_cnt = node_json.length;
+                if (0 == node_cnt)
+                {
+                    alert("暂无数据!");
+                    return false;
+                }
+
                 for (var i = 0; i < node_cnt; i++)
                 {
                     chart_data[i] = new Array(2);
